@@ -10,11 +10,10 @@ class StranicaCetiri extends StatefulWidget {
 }
 
 class _StranicaCetiriState extends State<StranicaCetiri> {
-  String dropdownValue = list[1];
+  String dropdownValue = list[0];
 
   @override
   Widget build(BuildContext context) {
-
     return Column(
       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
       children: [
